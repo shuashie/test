@@ -1,6 +1,11 @@
+import java.util.*;
 
 public class asd {
     public static void main() {
-        System.out.print("Hello");
+        //int i;
+        Scanner input = new Scanner(System.in); 
+        System.out.print("Enter thy name: ");
+        String name = input.nextLine();
+        System.out.printf("Hello %s%n", name);
     }
 }
